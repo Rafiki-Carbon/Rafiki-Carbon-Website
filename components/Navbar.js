@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import logo from '../public/assets/rafikilogo.svg';
+import Image from 'next/image';
 
 
 export default function Navbar() {
@@ -8,13 +8,21 @@ export default function Navbar() {
   return (
     <div
       
-      className="fixed bg-[#C2FFD9] left-0 top-0 w-full z-10 ease-in duration-300"
+      className=" w-full "
     >
-      <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
-        <Link href="/" className="font-bold text-4xl text-[#000000] ">
-            {logo}
-          
+      <div className="m-auto flex justify-between items-center  text-white">
+       <div className="">
+       <Link href="/" className="font-bold text-4xl text-[#000000] ">
+        <Image
+          src={"./rafiki-logo.svg"}
+          width={220}
+          height={60}
+          alt=""
+          priority={true}
+        />  
         </Link>
+       </div>
+        <div className=''>
         <ul  className="hidden sm:flex text-[#000000]">
           <li className="p-4">
             <Link href="/">Approach</Link>
@@ -25,11 +33,12 @@ export default function Navbar() {
           <li className="p-4">
             <Link href="/work">FAQs</Link>
           </li>
-          <li className="px-6 py-4 border-2 rounded-[20px] border-red-200">
+          <li className="px-10 py-4 border-2 rounded-[20px] border-[#008080]">
             <Link href="/contact">Get Started</Link>
           </li>
         </ul>
 
+        </div>
         {/* Mobile button */}
         {/* <div className="sm:hidden block z-10">
           {nav ? (
