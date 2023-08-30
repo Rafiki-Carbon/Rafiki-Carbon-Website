@@ -1,11 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ri";
+
 
 export default function Navbar() {
   return (
     <div className=" w-full ">
-      <div className="m-auto flex justify-between items-center  text-white">
+      <div className=" mx-auto flex justify-between items-center w-[90%] text-white">
         <div className="">
           <Link href="/" className="font-bold text-4xl text-[#000000] ">
             <Image
@@ -18,17 +18,17 @@ export default function Navbar() {
           </Link>
         </div>
         <div className="">
-          <ul className="hidden sm:flex text-[#000000]">
-            <li className="p-4">
+          <ul className="hidden sm:flex text-[#000000] gap-4 items-center">
+            <li className="">
               <Link href="/">Approach</Link>
             </li>
-            <li className="p-4">
+            <li className="">
               <Link href="/#team">Team</Link>
             </li>
-            <li className="p-4">
+            <li className="">
               <Link href="/FAQs">FAQs</Link>
             </li>
-            <li className="px-10 py-4 border-2 rounded-[20px] border-[#008080]">
+            <li className="px-3 py-2 flex items-center border rounded-[20px] border-[#008080]">
               <Link href="/getStarted">Get Started</Link>
             </li>
           </ul>
