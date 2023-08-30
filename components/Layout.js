@@ -9,10 +9,10 @@ export const metadata = {
 
 const Layout = ({ children }) => {
   return (
-    <div className={"bg-[#C2FFD9] min-h-screen w-screen"}>
+    <div className={"page min-h-screen w-screen px-16"}>
       <Navbar />
       {children}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 };
