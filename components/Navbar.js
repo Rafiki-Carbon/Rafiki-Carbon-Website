@@ -1,10 +1,9 @@
 import Link from "next/link";
 import Image from "next/image";
 
-
 export default function Navbar() {
   return (
-    <div className=" w-full ">
+    <div className=" w-full flex flex-row justify-center items-center ">
       <div className=" mx-auto flex justify-between items-center w-[90%] text-white">
         <div className="">
           <Link href="/" className="font-bold text-4xl text-[#000000] ">

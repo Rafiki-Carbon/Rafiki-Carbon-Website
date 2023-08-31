@@ -9,7 +9,7 @@ export const metadata = {
 
 const Layout = ({ children }) => {
   return (
-    <div className={"page min-h-screen w-screen p-16 "}>
+    <div className={"page min-h-screen w-screen px-16 "}>
       <Navbar />
       {children}
       
