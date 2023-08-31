@@ -43,7 +43,7 @@ export default function Footer() {
       {/* Larger screens */}
       <footer className="py-4 px-16 flex justify-between items-center">
         <div className="hidden sm:block">
-          <div className="grid grid-cols-3 w-full items-center w-screen">
+          <div className="grid grid-cols-3 items-center w-screen">
             <div className="grid grid-cols-3">
               <div>
                 <div>Pillars</div>
