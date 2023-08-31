@@ -5,7 +5,7 @@ export default function Explore() {
         <div className="flex flex-col justify-center items-center " >
             <div className="text-center">
             
-                <h2 className="text-[#808080] mt-2">Unveil a Greener Horizon with Rafiki Carbon Empowering Sustainability and Redefining Impact</h2>
+                <h2 className="text-[#000] mt-2 font-[32px]">Unveil a Greener Horizon with Rafiki Carbon Empowering Sustainability and Redefining Impact</h2>
             </div>
             <div className="flex  justify-center items-center">
                 <button className="text-[#FFF] rounded-[10px] bg-[#008080] px-16 py-2 mt-2">Get started</button>
