@@ -6,43 +6,6 @@ import useMediaQuery from "./hooks/MediaQuery";
 import Image from "next/image";
 import { FaHamburger } from 'react-icons/fa'
 import { AiOutlineCloseCircle } from 'react-icons/ai'
-// import Image from "next/image";
-
-// export default function Navbar() {
-//   return (
-//     <div className=" w-full flex flex-row justify-center items-center ">
-//       <div className=" mx-auto flex justify-between items-center w-[90%] text-white">
-//         <div className="">
-//           <Link href="/" className="font-bold text-4xl text-[#000000] ">
-//             <Image
-//               src={"./rafiki-logo.svg"}
-//               width={220}
-//               height={60}
-//               alt=""
-//               priority={true}
-//             />
-//           </Link>
-//         </div>
-//         <div className="">
-//           <ul className="hidden sm:flex text-[#000000] gap-4 items-center">
-//             <li className="">
-//               <Link href="/">Approach</Link>
-//             </li>
-//             <li className="">
-//               <Link href="/#team">Team</Link>
-//             </li>
-//             <li className="">
-//               <Link href="/FAQs">FAQs</Link>
-//             </li>
-//             <li className="px-3 py-2 flex items-center border rounded-[20px] border-[#008080]">
-//               <Link href="/getStarted">Get Started</Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
 
 export default function Navbar() {
   const [isMenuToggled, setIsMenuToggled] = useState(false);
@@ -69,7 +32,7 @@ font-semibold"
             </div>
             <div className="text-[#000000] flex flex-row gap-4 items-center">
               <Link href="/">Approach</Link>
-              <Link href="/approach">Approach</Link>
+              <Link href="/approach">Team</Link>
               <Link href="/team">Team</Link>
               <Link href="/fags">FAQs</Link>
               <button className="px-3 py-2 flex items-center border rounded-[20px] border-[#008080]">
@@ -113,9 +76,9 @@ font-semibold"
             </div>
             <div className="text-[#000000] gap-2 items-center flex flex-col">
                 <Link href="/">Approach</Link>
-                <Link href="/approach">Approach</Link>
-                <Link href="/team">Team</Link>
-                <Link href="/faqs">FAQs</Link>
+                <Link href="/approach">Team</Link>
+                <Link href="/team">FAQs</Link>
+                <Link href="/faqs">Blog</Link>
                 <button className="px-3 py-2 flex items-center border rounded-[20px] border-[#008080]">
                   <Link href="/getStarted">Get Started</Link>
                 </button>
