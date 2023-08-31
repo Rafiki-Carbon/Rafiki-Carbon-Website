@@ -5,6 +5,7 @@ import Home from "@/components/Home";
 import Pillars from "@/components/Pillars";
 import Explore from "@/components/Explore";
 import Team from "@/components/Team";
+import Sustainable from "@/components/Sustainable";
 
 export default function Index() {
   return (
@@ -12,6 +13,7 @@ export default function Index() {
       <Home />
       <Pillars />
       <GetStarted />
+      <Sustainable/>
       <Team/>
       <Faqs />
       <Explore />
