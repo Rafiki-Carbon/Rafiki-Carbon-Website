@@ -1,88 +1,35 @@
-import Image from "next/image"
+import { Questions } from "@/data/Questions";
+import { useState } from "react";
+import Accordion from "./Accordion/Index";
+
 export default function Faqs() {
 
+  const [data] = useState([...Questions.questions])
+
+
     return (
-     <div className=" mx-auto w-[100%] mt-4">
-        <div className="flex flex-col justify-center items-center " >
-        <div className="text-center">
-                <h1 className="text-[#0072BB] font-[40px] mt-2">Frequently Asked Question</h1>
-          </div>
-        <div class="md:w-[540px] w-[320px] mt-4 flex flex-row border bg-[#FFFFFF] justify-between items-center px-4 py-2 ">
-          <div class="">
-            <h6>How do I signup?</h6>
-          </div>
-          <div>
-          <Image
-              src={"./chevron-down.svg"}
-              width={20}
-              height={60}
-              alt=""
-              priority={true}
-            />
-          </div>
-        </div>
-        <div class="md:w-[540px] w-[320px] mt-4 flex flex-row border bg-[#FFFFFF] justify-between items-center px-4 py-2 ">
-          <div class="">
-            <h6>How do I signup?</h6>
-          </div>
-          <div>
-          <Image
-              src={"./chevron-down.svg"}
-              width={20}
-              height={60}
-              alt=""
-              priority={true}
-            />
-          </div>
-        </div>
-        <div class="md:w-[540px] w-[320px] mt-4 flex flex-row border bg-[#FFFFFF] justify-between items-center px-4 py-2 ">
-          <div class="">
-            <h6>How do I signup?</h6>
-          </div>
-          <div>
-          <Image
-              src={"./chevron-down.svg"}
-              width={20}
-              height={60}
-              alt=""
-              priority={true}
-            />
-          </div>
-        </div>
-        <div class="md:w-[540px] w-[320px] mt-4 flex flex-row border bg-[#FFFFFF] justify-between items-center px-4 py-2 ">
-          <div class="">
-            <h6>How do I signup?</h6>
-          </div>
-          <div>
-          <Image
-              src={"./chevron-down.svg"}
-              width={20}
-              height={60}
-              alt=""
-              priority={true}
-            />
-          </div>
-        </div>
-        <div class="md:w-[540px] w-[320px] mt-4 flex flex-row border bg-[#FFFFFF] justify-between items-center px-4 py-2 ">
-          <div class="">
-            <h6>How do I signup?</h6>
-          </div>
-          <div>
-          <Image
-              src={"./chevron-down.svg"}
-              width={20}
-              height={60}
-              alt=""
-              priority={true}
-            />
-          </div>
-        </div>
-           
+      <>
+      <div
+          className="text-center text-[30px] my-8 font-[700] text-[#0072BB]"
+      >
+          Frequently Asked Questions
+      </div>
+    <main 
+      className="ml-28"
+    >
+      {
+        data && data.map((info, index) => {
+          return (
+          <Accordion 
+          key={index}
+          title={info.title} 
+          answer={info.answer
+          }/>
+        )
+        })
         
-                
-            </div>
-            
-        </div>
-    
+      }
+    </main>
+      </>
     )
   }
