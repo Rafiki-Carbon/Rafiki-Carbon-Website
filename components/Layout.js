@@ -9,13 +9,13 @@ export const metadata = {
 
 const Layout = ({ children }) => {
   return (
-    <div className={"page min-h-screen w-screen px-16 "}>
+    <div className="flex flex-col min-h-screen w-screen">
       <Navbar />
-      {children}
-      
-      {/* <Footer /> */}
+      <div className="px-16">
+        <main className="flex-grow">{children}</main>
+      </div>
+      <Footer />
     </div>
-   
   );
 };
 

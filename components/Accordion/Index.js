@@ -12,7 +12,7 @@ export default function Accordion({
         >
         <div onClick={() => setIsActive(!isActive)}>
             <div 
-            className="flex shadow-[0px_4px_4px_0px_rgba(0, 0, 0, 0.25)] w-[963px] flex-wrap border my-4 p-[20px] gap-[70%] rounded-[9px] bg-[#fff] "
+            className="flex shadow-[0px_4px_4px_0px_rgba(0, 0, 0, 0.25)] w-[963px] flex-wrap border my-4 p-[20px] gap-[120px] rounded-[9px] bg-[#fff] "
             >
             <div 
             className="text-[20px] font-[600]"
@@ -28,7 +28,7 @@ export default function Accordion({
         </div>
         {isActive && 
             <div
-            className="text-[14px]"
+            className="text-[14px] w-[963px]"
             >
             {answer}
             </div>}
