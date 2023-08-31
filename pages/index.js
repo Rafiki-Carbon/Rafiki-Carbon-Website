@@ -1,11 +1,10 @@
 // Components
-import GetStarted from "@/components/GetStarted";
+import Explore from "@/components/Explore"
 import Home from "@/components/Home";
-import Faqs from "@/components/Faqs";
+
 
 
 export default function Index() {
   return <Home />,
-  //  <GetStarted/>,
-   <Faqs/>;
+  <Explore />;
 }
