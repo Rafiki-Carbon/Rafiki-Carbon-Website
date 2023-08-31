@@ -1,7 +1,7 @@
 export default function GetStarted() {
 
     return (
-     <div className=" mx-auto w-[90%] border  justify-center items-center p-4 border-[2] border-[#2F8A8A] mt-4">
+     <div className=" mx-auto w-[90%] border rounded-[24px] justify-center items-center p-4 border-[2] border-[#2F8A8A] mt-4">
         <div className="flex flex-col justify-center items-center " >
             <div className="text-center">
                 <h1 className="text-[#000] font-bold mt-2">Get Started Today</h1>
