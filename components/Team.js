@@ -27,7 +27,7 @@ export default function Team() {
             exit="hidden"
             >
             <Image
-            className="border-solid border-8 border-[#98FF98]"
+            className="border-solid border-8 border-[#98FF98] object-cover"
             src={"/PASPORT 52 1.png"}
             width={430}
             height={430}
@@ -74,7 +74,7 @@ export default function Team() {
             exit="hidden"
             >
             <Image
-            className="ml-24 border-solid border-8 border-[#AFEEEE]"
+            className="ml-24 border-solid border-8 border-[#AFEEEE] object-cover"
             src={"/PASSPORT 51 1 (1).png"}
             width={430}
             height={430}

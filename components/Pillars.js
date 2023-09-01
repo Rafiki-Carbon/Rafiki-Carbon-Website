@@ -55,7 +55,7 @@ export default function Pillars() {
   return (
     <div className="py-8">
       <motion.div
-        className="text-center text-lg font-bold"
+        className="text-center text-[#0072BB] text-[40px] font-[700]"
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         animate="show"
@@ -68,7 +68,7 @@ export default function Pillars() {
         <p>This is the content of the modal.</p>
       </Modal>
       <motion.div
-        className="text-center text-[#0072BB] font-medium"
+        className="text-center text-[#808080] text-[26px] font-[600]"
         variants={fadeIn("down", 0.3)}
         initial="hidden"
         animate="show"
@@ -78,7 +78,7 @@ export default function Pillars() {
       </motion.div>
 
       <motion.div
-        className="flex justify-center items-center gap-8 mt-16"
+        className="flex justify-center items-center gap-28 my-16"
         variants={fadeIn("down", 0.4)}
         initial="hidden"
         animate="show"
