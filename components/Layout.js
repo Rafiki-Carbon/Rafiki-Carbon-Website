@@ -1,5 +1,6 @@
 // Components
 import Footer from "./Footer";
+import Nav from "./Nav";
 import Navbar from "./Navbar";
 
 export const metadata = {
@@ -10,7 +11,7 @@ export const metadata = {
 const Layout = ({ children }) => {
   return (
     <div className="flex flex-col min-h-screen w-screen">
-      <Navbar />
+      <Nav />
       <div className="px-16">
         <main className="flex-grow">{children}</main>
       </div>
