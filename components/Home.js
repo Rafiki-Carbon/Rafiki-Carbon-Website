@@ -12,11 +12,13 @@ import { fadeIn } from "../variants";
 
 export default function Home() {
   return (
-    <div className="md:grid xl:grid grid-cols-2 py-16">
-      <div>
+    <div className="flex  py-16 w-[100%]">
+      <div 
+      className="w-[50%] leading-8 "
+      >
         {/* title */}
         <motion.div
-          className="font-medium text-lg xl:text-4xl xl:leading-relaxed"
+          className="font-medium text-[50px]  xl:leading-relaxed"
           variants={fadeIn("down", 0.2)}
           initial="hidden"
           animate="show"
@@ -58,20 +60,25 @@ export default function Home() {
         </div>
       </div>
 
-      <motion.div
+    <div 
+    className="w-[50%]"
+    >
+    <motion.div
         variants={fadeIn("up", 0.8)}
         initial="hidden"
         animate="show"
         exit="hidden"
       >
         <Image
+        className="object-cover"
           src={"./home_img.svg"}
           width={450}
-          height={60}
+          height={100}
           alt=""
           priority={true}
         />
       </motion.div>
+    </div>
     </div>
   );
 }
