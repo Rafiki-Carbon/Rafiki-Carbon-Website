@@ -1,10 +1,11 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 import Image from "next/image";
 import { fadeIn } from "../variants";
 
 export default function Team() {
   return (
-    <div className="md:grid xl:grid">
+    <div className="md:grid xl:grid" id="team">
       <div className="font-extrabold text-[#0072BB] text-lg xl:text-4xl text-center">
         The Team
       </div>
@@ -46,7 +47,7 @@ export default function Team() {
               animate="show"
               exit="hidden"
             >
-              LinkedIn
+              <Link href="https://www.linkedin.com/in/brian-munene-njeru" target="_blank">LinkedIn</Link>
             </motion.button>
           </div>
         </div>
@@ -86,7 +87,7 @@ export default function Team() {
               animate="show"
               exit="hidden"
             >
-              LinkedIn
+              <Link href="https://www.linkedin.com/in/job-nyambura/" target="_blank">LinkedIn</Link>
             </motion.button>
           </div>
         </div>

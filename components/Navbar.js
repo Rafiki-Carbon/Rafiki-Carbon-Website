@@ -32,12 +32,12 @@ font-semibold"
               </Link>
             </div>
             <div className="text-[#000000] flex flex-row gap-4 items-center">
-              <Link href="/">Approach</Link>
-              <Link href="/approach">Team</Link>
-              <Link href="/team">FAQs</Link>
-              <Link href="/fags">Blog</Link>
+              <Link href="#approach">Approach</Link>
+              <Link href="#team">Team</Link>
+              <Link href="#faq">FAQs</Link>
+              <Link href="#blog">Blog</Link>
               <button className="px-3 py-2 flex items-center border rounded-[20px] border-[#008080]">
-              <Link href="/getStarted">Get Started</Link>
+              <Link href="/">Get Started</Link>
              </button>
             </div>
           </div>
@@ -77,10 +77,10 @@ font-semibold"
               </Link>
             </div>
             <div className="text-[#000000] gap-2 items-center flex flex-col">
-                <Link href="/">Approach</Link>
-                <Link href="/approach">Team</Link>
-                <Link href="/team">FAQs</Link>
-                <Link href="/faqs">Blog</Link>
+                <Link href="#approach">Approach</Link>
+                <Link href="#team">Team</Link>
+                <Link href="#faq">FAQs</Link>
+                <Link href="#blog">Blog</Link>
                 <button className="px-3 py-2 flex items-center border rounded-[20px] border-[#008080]">
                   <Link href="/getStarted">Get Started</Link>
                 </button>

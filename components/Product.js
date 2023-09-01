@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Product() {
   return (
-    <div className="px-4 md:px-0">
+    <div className="px-4 md:px-0" id="approach">
 
       <div className="text-center text-4xl font-bold text-[#0072BB] pb-2.5">Discover Our Expertise</div>
 

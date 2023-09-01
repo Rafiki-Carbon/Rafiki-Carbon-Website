@@ -5,7 +5,7 @@ import { fadeIn } from "../variants";
 
 export default function Home() {
   return (
-    <div className="flex flex-col-reverse md:flex-row py-16 w-full">
+    <div className="flex flex-col-reverse md:flex-row py-16 w-full" id="home">
       <div className="w-full md:w-1/2  px-4 md:px-8">
         <motion.div
           className="font-medium text-xl md:text-4xl xl:text-5xl leading-relaxed"

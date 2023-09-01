@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Socials from "./Socials";
+import Link from "next/link";
 
 export default function Footer() {
   const year = new Date().getFullYear();
@@ -11,16 +12,16 @@ export default function Footer() {
           <div>
             <div className="grid grid-cols-3">
               <div>
-                <div>Home</div>
-                <div>FAQs</div>
+                <div><Link href="#home">Home</Link></div>
+                <div><Link href="#faq">FAQs</Link></div>
               </div>
               <div>
-                <div>Approach</div>
-                <div>Blog</div>
+                <div><Link href="#approach">Approach</Link>Approach</div>
+                <div><Link href="#blog">Blog</Link></div>
               </div>
               <div>
-                <div>Team</div>
-                <div>Contact</div>
+                <div><Link href="#team">Team</Link></div>
+                <div><Link href="/">Contact</Link></div>
               </div>
             </div>
             <div className="my-8 text-center">
@@ -46,16 +47,16 @@ export default function Footer() {
           <div className="grid grid-cols-3 items-center w-full">
             <div className="grid grid-cols-3">
               <div>
-                <div>Home</div>
-                <div>FAQs</div>
+                <div><Link href="#home">Home</Link></div>
+                <div><Link href="#faq">FAQs</Link></div>
               </div>
               <div>
-                <div>Approach</div>
-                <div>Blog</div>
+                <div><Link href="#approach">Approach</Link></div>
+                <div><Link href="#blog">Blog</Link></div>
               </div>
               <div>
-                <div>Team</div>
-                <div>Contact</div>
+                <div><Link href="#team">Team</Link></div>
+                <div><Link href="/">Contact</Link></div>
               </div>
             </div>
             <div className="justify-center items-center">
