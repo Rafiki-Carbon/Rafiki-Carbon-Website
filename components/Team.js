@@ -75,7 +75,7 @@ export default function Team() {
           </div>
 
           <div className="font-[400] text-[18px] xl:leading-relaxed text-center xl:text-left">
-            Meet Job, the inventive force behind Rafiki Carbon's advanced solutions. With software engineering expertise, Job's passion shines through in every detail, from algorithms to user interface. Committed to impactful sustainability, they unite expertise and core values to resonate globally and drive change.
+            Meet Job, the inventive force behind Rafiki Carbon&apos;s advanced solutions. With software engineering expertise, Job&apos;s passion shines through in every detail, from algorithms to user interface. Committed to impactful sustainability, they unite expertise and core values to resonate globally and drive change.
           </div>
           
           <div className="mt-4 xl:text-left">

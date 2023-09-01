@@ -27,6 +27,7 @@ font-semibold"
                   width={220}
                   height={60}
                   priority={true}
+                  alt=""
                 />
               </Link>
             </div>
@@ -71,6 +72,7 @@ font-semibold"
                   width={200}
                   height={60}
                   priority={true}
+                  alt=""
                 />
               </Link>
             </div>
