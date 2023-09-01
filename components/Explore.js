@@ -4,8 +4,8 @@ export default function Explore() {
         <div className="flex flex-col justify-center items-center">
           <div className="text-center">
             <h2 className="text-[#000] my-4 font-semibold text-xl md:text-2xl mx-4 md:mx-8">
-              Unveil a Greener Horizon with Rafiki Carbon
-              Empowering Sustainability and Redefining Impact
+              Unveil a Greener Horizon with Rafiki Carbon:
+              Empowering Sustainability and Redefining Impact!
             </h2>
           </div>
           <div className="flex justify-center items-center my-4">
