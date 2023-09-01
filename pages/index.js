@@ -17,7 +17,7 @@ export default function Index() {
       <GetStarted />
       <Sustainable/>
       <Team/>
-      <Faqs />
+      {/* <Faqs /> */}
       <Explore />
     </div>
   );
