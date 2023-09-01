@@ -5,7 +5,10 @@ import { fadeIn } from "../variants";
 
 export default function Home() {
   return (
-    <div className="flex flex-col-reverse md:flex-row py-16 w-full" id="home">
+    <div
+      className="flex flex-col-reverse md:flex-row w-full md:py-8 lg:py-12 xl:py-16"
+      id="home"
+    >
       <div className="w-full md:w-1/2  px-4 md:px-8">
         <motion.div
           className="font-medium text-xl md:text-4xl xl:text-5xl leading-relaxed"
@@ -16,7 +19,10 @@ export default function Home() {
         >
           Fostering sustainability by linking{" "}
           <span className="text-[#0072BB]">renewables</span>,{" "}
-          <span className="text-[#0072BB]">trading Renewable Energy Certificates</span>, and{" "}
+          <span className="text-[#0072BB]">
+            trading Renewable Energy Certificates
+          </span>
+          , and{" "}
           <span className="text-[#0072BB]">transparent carbon solutions</span>.
         </motion.div>
         <motion.div
