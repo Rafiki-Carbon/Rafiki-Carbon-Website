@@ -1,7 +1,7 @@
 // Components
 import Footer from "./Footer";
-import Nav from "./Nav";
 import Navbar from "./Navbar";
+import Head from "next/head";
 
 export const metadata = {
   title: "Rafiki Carbon",
@@ -10,12 +10,22 @@ export const metadata = {
 
 const Layout = ({ children }) => {
   return (
-    <div className="flex flex-col min-h-screen w-screen">
-      <Nav />
-      <div className="px-16">
-        <main className="flex-grow">{children}</main>
+    <div>
+      <Head>
+        <title>Rafiki Carbon - Your Premier Choice for Carbon Credits</title>
+        <meta
+          name="Rafiki Carbon"
+          content="Get affordable carbon credits from reliable suppliers"
+        />
+        <link rel="icon" href="./rafiki-logo.svg" />
+      </Head>
+      <div className="flex flex-col min-h-screen w-screen">
+        <Navbar />
+        <div className="px-16">
+          <main className="flex-grow">{children}</main>
+        </div>
+        <Footer />
       </div>
-      <Footer />
     </div>
   );
 };
