@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Sustainable() {
     return (
-      <div className="flex flex-col justify-center items-center my-16">
+      <div className="flex flex-col justify-center items-center my-32">
             <div>
             <h1 className="text-[40px] font-[700] text-[#0072BB] my-4">Sustainable Development Goals</h1>
             </div>

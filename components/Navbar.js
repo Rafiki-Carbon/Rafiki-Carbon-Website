@@ -33,8 +33,8 @@ font-semibold"
             <div className="text-[#000000] flex flex-row gap-4 items-center">
               <Link href="/">Approach</Link>
               <Link href="/approach">Team</Link>
-              <Link href="/team">Team</Link>
-              <Link href="/fags">FAQs</Link>
+              <Link href="/team">FAQs</Link>
+              <Link href="/fags">Blog</Link>
               <button className="px-3 py-2 flex items-center border rounded-[20px] border-[#008080]">
               <Link href="/getStarted">Get Started</Link>
              </button>

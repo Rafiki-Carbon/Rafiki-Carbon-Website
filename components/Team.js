@@ -29,7 +29,7 @@ export default function Team() {
             <Image
             className="border-solid border-8 border-[#98FF98] object-cover"
             src={"/PASPORT 52 1.png"}
-            width={430}
+            width={330}
             height={430}
             alt=""
             priority={true}
@@ -45,12 +45,7 @@ export default function Team() {
             <div
             className="font-[400] text-[18px] xl:leading-relaxed text-left"
             >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus 
-            eu massa sit amet nulla fringilla efficitur. Sed eget metus sit amet 
-            tortor fermentum interdum id eget justo. Aenean lacinia, libero ac 
-            hendrerit volutpat, urna libero ullamcorper libero, in tincidunt  
-            lectus lorem eu odio. Vestibulum malesuada purus in purus 
-            finibus sollicitudin. Fusce id augue velit.
+            Meet Munene, the visionary behind Rafiki Carbon, revolutionizing carbon offsetting. With a software engineering background, they blend expertise and unwavering commitment to drive environmental-tech change. Munene envisions harmonious collaboration between renewable projects and conscientious corporations, redefining sustainable contributions for a greener, thriving future.
             </div>
             {/* linkedin button  */}
             <div className="mt-8">
@@ -74,9 +69,9 @@ export default function Team() {
             exit="hidden"
             >
             <Image
-            className="ml-24 border-solid border-8 border-[#AFEEEE] object-cover"
+            className="ml-48 border-solid border-8 border-[#AFEEEE] object-cover"
             src={"/PASSPORT 51 1 (1).png"}
-            width={430}
+            width={330}
             height={430}
             alt=""
             priority={true}
@@ -92,12 +87,7 @@ export default function Team() {
             <div
             className="font-[400] text-[18px] xl:leading-relaxed text-right"
             >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus 
-            eu massa sit amet nulla fringilla efficitur. Sed eget metus sit amet 
-            tortor fermentum interdum id eget justo. Aenean lacinia, libero ac 
-            hendrerit volutpat, urna libero ullamcorper libero, in tincidunt  
-            lectus lorem eu odio. Vestibulum malesuada purus in purus  
-            finibus sollicitudin. Fusce id augue velit.
+            Meet Job, the inventive force behind Rafiki Carbon's advanced solutions. With software engineering expertise, Job's passion shines through in every detail, from algorithms to user interface. Committed to impactful sustainability, they unite expertise and core values to resonate globally and drive change.
             </div>
             {/* linkedin button  */}
             <div className="mt-8 text-right">

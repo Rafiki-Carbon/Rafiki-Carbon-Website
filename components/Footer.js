@@ -11,11 +11,11 @@ export default function Footer() {
           <div>
             <div className="grid grid-cols-3">
               <div>
-                <div>Pillars</div>
+                <div>Home</div>
                 <div>FAQs</div>
               </div>
               <div>
-                <div>Solutions</div>
+                <div>Approach</div>
                 <div>Blog</div>
               </div>
               <div>
@@ -23,7 +23,7 @@ export default function Footer() {
                 <div>Contact</div>
               </div>
             </div>
-            <div className="mt-8 block">
+            <div className="my-8 block">
               <div
               className="text-center"
               >
@@ -33,7 +33,7 @@ export default function Footer() {
                 All rights reserved. &copy; {year} Rafiki Carbon
               </p>
             </div>
-            <div className="block mx-auto mt-4">
+            <div className="block mx-auto my-4">
               <Image
                 src={"./footer-logo.svg"}
                 width={180}
@@ -52,11 +52,11 @@ export default function Footer() {
           <div className="grid grid-cols-3 items-center w-screen">
             <div className="grid grid-cols-3">
               <div>
-                <div>Pillars</div>
+                <div>Home</div>
                 <div>FAQs</div>
               </div>
               <div>
-                <div>Solutions</div>
+                <div>Approach</div>
                 <div>Blog</div>
               </div>
               <div>
@@ -64,13 +64,17 @@ export default function Footer() {
                 <div>Contact</div>
               </div>
             </div>
-            <div>
+            <div className="justify-center items-center">
+              {/* <div className="text-center">
+                <Socials />
+              </div> */}
               <p className="text-center">
                 All rights reserved. &copy; {year} Rafiki Carbon
               </p>
             </div>
             <div className="block mx-auto">
               <Image
+                className="object-cover"
                 src={"./footer-logo.svg"}
                 width={180}
                 height={180}
