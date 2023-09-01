@@ -25,7 +25,7 @@ export const Questions = {
             answer: "Our innovative match-making feature employs algorithms to connect compatible corporations with renewable projects, maximizing the impact of green investments."
         },
         {
-            title: "WWhat is the significance of transparency and traceability in carbon accounting?",
+            title: "What is the significance of transparency and traceability in carbon accounting?",
             answer: "Transparency ensures that corporations can access accurate data about their carbon offset contributions, while traceability offers clear evidence of the journey from REC purchase to emission reduction."
         }
     ]

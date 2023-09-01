@@ -1,38 +1,21 @@
 import { useState } from "react";
 
-export default function Accordion({
-    title,
-    answer
-}) {
-    const [isActive, setIsActive] = useState(false);
-    return (
-        <>
-        <div
-        className="content-center"
-        >
-        <div onClick={() => setIsActive(!isActive)}>
-            <div 
-            className="flex shadow-[0px_4px_4px_0px_rgba(0, 0, 0, 0.25)] w-[963px] flex-wrap border my-12 p-[20px] gap-[120px] rounded-[9px] bg-[#fff] "
-            >
-            <div 
-            className="text-[20px] font-[600]"
-            >
-            {title}
-            </div>
-            <div 
-            className="font-[900] h-[24px]"
-            >
-            {isActive ? '^' : '˅'}
-            </div>
-            </div>
+export default function Accordion({ title, answer }) {
+  const [isActive, setIsActive] = useState(false);
+
+  return (
+    <div className="px-4 md:px-0">
+      <div className="cursor-pointer" onClick={() => setIsActive(!isActive)}>
+        <div className="flex shadow-md md:shadow-none flex-wrap border my-4 md:my-12 p-4 md:p-6 md:gap-4 rounded-md bg-white">
+          <div className="text-xl md:text-2xl font-semibold">{title}</div>
+          <div className="font-semibold text-2xl h-8 md:h-12">
+            {isActive ? "▲" : "▼"}
+          </div>
         </div>
-        {isActive && 
-            <div
-            className="text-[14px] w-[963px]"
-            >
-            {answer}
-            </div>}
-        </div>
-        </>
-    )
+      </div>
+      {isActive && (
+        <div className="text-sm md:text-base p-2 md:p-4">{answer}</div>
+      )}
+    </div>
+  );
 }

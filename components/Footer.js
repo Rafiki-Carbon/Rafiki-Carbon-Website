@@ -1,4 +1,3 @@
-// next image
 import Image from "next/image";
 import Socials from "./Socials";
 
@@ -6,7 +5,8 @@ export default function Footer() {
   const year = new Date().getFullYear();
   return (
     <div>
-      <footer className="py-8 px-16 md:hidden lg:hidden xl:hidden">
+      {/* Mobile */}
+      <footer className="py-8 px-4 md:hidden lg:hidden xl:hidden">
         <div className="flex items-center justify-center">
           <div>
             <div className="grid grid-cols-3">
@@ -23,19 +23,13 @@ export default function Footer() {
                 <div>Contact</div>
               </div>
             </div>
-            <div className="my-8 block">
-              <div
-              className="text-center"
-              >
-                <Socials />
-              </div>
-              <p className="text-center">
-                All rights reserved. &copy; {year} Rafiki Carbon
-              </p>
+            <div className="my-8 text-center">
+              <Socials />
+              <p className="my-2">&copy; {year} Rafiki Carbon. All rights reserved.</p>
             </div>
             <div className="block mx-auto my-4">
               <Image
-                src={"./footer-logo.svg"}
+                src={"/footer-logo.svg"}
                 width={180}
                 height={180}
                 alt=""
@@ -47,9 +41,9 @@ export default function Footer() {
       </footer>
 
       {/* Larger screens */}
-      <footer className="py-4 px-16 flex justify-between items-center">
-        <div className="hidden sm:block">
-          <div className="grid grid-cols-3 items-center w-screen">
+      <footer className="py-4 px-16 hidden md:block">
+        <div className="flex justify-between items-center">
+          <div className="grid grid-cols-3 items-center w-full">
             <div className="grid grid-cols-3">
               <div>
                 <div>Home</div>
@@ -65,17 +59,14 @@ export default function Footer() {
               </div>
             </div>
             <div className="justify-center items-center">
-              {/* <div className="text-center">
-                <Socials />
-              </div> */}
               <p className="text-center">
-                All rights reserved. &copy; {year} Rafiki Carbon
+                &copy; {year} Rafiki Carbon. All rights reserved.
               </p>
             </div>
             <div className="block mx-auto">
               <Image
                 className="object-cover"
-                src={"./footer-logo.svg"}
+                src={"/footer-logo.svg"}
                 width={180}
                 height={180}
                 alt=""
