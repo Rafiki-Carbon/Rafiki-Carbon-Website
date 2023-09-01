@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
   return (
     <div>
       <Head>
-        <title>Rafiki Carbon</title>
+        <title>Rafiki Carbon - Your Premier Choice for Carbon Credits</title>
         <meta
           name="Rafiki Carbon"
           content="Get affordable carbon credits from reliable suppliers"
