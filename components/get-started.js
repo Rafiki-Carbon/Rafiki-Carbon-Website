@@ -1,5 +1,6 @@
 const GetStartedPage = () => {
     return (
+      
   <><><><><><><>
 
         <div class="text-center text-xl font-medium pb-[30px]">List a Project</div><div>

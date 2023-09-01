@@ -9,6 +9,7 @@ import Sustainable from "@/components/Sustainable";
 import Product from "@/components/Product";
 import GetStartedPage from "../components/get-started";
 
+
 export default function Index() {
   return (
     <div className="scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100">
