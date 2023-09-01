@@ -72,7 +72,7 @@ export default function Home() {
         <Image
         className="object-cover"
           src={"./home_img.svg"}
-          width={450}
+          width={650}
           height={100}
           alt=""
           priority={true}
