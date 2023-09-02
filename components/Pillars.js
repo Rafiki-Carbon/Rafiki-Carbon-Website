@@ -43,9 +43,9 @@ export default function Pillars() {
     setSelectedPillar(null);
   };
   return (
-    <div className="py-8">
+    <div className="pills py-8">
       <motion.div
-        className="text-center text-[#0072BB] text-[40px] font-[700]"
+        className="pillar text-center text-[#0072BB] text-[40px] font-bold"
         variants={fadeIn("down", 0.2)}
         initial="hidden"
         animate="show"
@@ -64,7 +64,7 @@ export default function Pillars() {
         )}
       </Modal>
       <motion.div
-        className="text-center text-[#808080] text-[26px] font-[600]"
+        className="pillar-sub text-center text-[#808080] text-[26px] font-[600]"
         variants={fadeIn("down", 0.3)}
         initial="hidden"
         animate="show"
@@ -74,7 +74,7 @@ export default function Pillars() {
       </motion.div>
 
       <motion.div
-        className="grid grid-cols-3 xl:flex justify-center items-center gap-28 my-16"
+        className="all-pills grid grid-cols-2 xl:flex justify-center items-center gap-28 md:gap-4 my-16"
         variants={fadeIn("down", 0.4)}
         initial="hidden"
         animate="show"

@@ -7,8 +7,8 @@ export default function Faqs() {
   const [data] = useState([...Questions.questions]);
 
   return (
-    <div className="px-4 md:px-0" id="faq">
-      <div className="text-center text-2xl md:text-4xl my-8 font-bold text-[#0072BB] mt-16">
+    <div className="pills px-4 md:px-0" id="faq">
+      <div className="pillar text-center text-2xl md:text-4xl my-8 font-bold text-[#0072BB] mt-16">
         FAQs
       </div>
       <main className="mx-4 md:mx-12 mb-16 md:mb-32">

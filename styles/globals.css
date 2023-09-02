@@ -30,3 +30,88 @@
   padding: 6rem;
   min-height: 100vh;
 }
+
+.start{
+  width: 90%;
+}
+
+
+@media only screen and (max-width: 500px) {
+  .pills{
+    margin: 15% 0;
+  }
+  /* home  */
+  .hide-on-mobile {
+    display: none; 
+  }
+  .home-text{
+    line-height: 40px;
+    margin-top: 2%;
+    text-align: center;
+  }
+  .top{
+    margin-top: 4%;
+    text-align: center;
+  }
+
+  .btn-start{
+    margin-left: 33%;
+  }
+
+  /* pillars  */
+  .pillar{
+    font-size: 28px;
+  }
+
+  .pillar-sub{
+    font-size: 18px;
+  }
+
+  .all-pills{
+    gap: 40px;
+    margin: 10% 6%;
+  }
+
+  /* features  */
+  .heading{
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .text-1{
+    font-size: 15px;
+  }
+
+  .flex{
+    margin-top: 10px;
+  }
+
+  /* getstarted  */
+  .start{
+    margin: 0 5%;
+    width: 90%;
+  }
+
+  /* team  */
+  .image{
+    margin-left: 5%;
+  }
+
+  .linkedin{
+    text-align: center;
+  }
+
+  /* faqs */
+  .faq{
+    font-size: 14px;
+  }
+
+  .faq-2{
+    font-size: 14px;
+  }
+
+  .faq-3{
+    font-size: 14px;
+  }
+}

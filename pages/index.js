@@ -7,7 +7,6 @@ import Explore from "@/components/Explore";
 import Team from "@/components/Team";
 import Sustainable from "@/components/Sustainable";
 import Product from "@/components/Product";
-import GetStartedPage from "../components/get-started";
 
 
 export default function Index() {
@@ -17,7 +16,6 @@ export default function Index() {
       <Pillars />
       <Product/>
       <GetStarted />
-      <GetStartedPage/>
       <Sustainable/>
       <Team/>
       <Faqs />

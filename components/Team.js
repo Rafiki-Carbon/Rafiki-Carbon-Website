@@ -5,11 +5,11 @@ import { fadeIn } from "../variants";
 
 export default function Team() {
   return (
-    <div className="md:grid xl:grid" id="team">
-      <div className="font-extrabold text-[#0072BB] text-lg xl:text-4xl text-center">
+    <div className="pills md:grid xl:grid" id="team">
+      <div className="pillar font-bold text-[#0072BB] text-lg xl:text-4xl text-center">
         The Team
       </div>
-      <div className="font-bold my-4 text-[#808080] text-lg xl:text-2xl text-center">
+      <div className="pillar-sub font-bold my-4 text-[#808080] text-lg xl:text-2xl text-center">
         Discover our Founders
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-4">
@@ -22,7 +22,7 @@ export default function Team() {
             exit="hidden"
           >
             <Image
-              className="border-solid border-8 border-[#98FF98] object-cover"
+              className="image border-solid border-8 border-[#98FF98] object-cover"
               src={"/PASPORT 52 1.png"}
               width={330}
               height={430}
@@ -39,9 +39,9 @@ export default function Team() {
             Meet Munene, the visionary behind Rafiki Carbon, revolutionizing carbon offsetting. With a software engineering background, they blend expertise and unwavering commitment to drive environmental-tech change. Munene envisions harmonious collaboration between renewable projects and conscientious corporations, redefining sustainable contributions for a greener, thriving future.
           </div>
           
-          <div className="mt-4 xl:text-left">
+          <div className="linkedin mt-4 xl:text-left">
             <motion.button
-              className="bg-[#98FF98] font-[600] text-[18px] text-dark px-6 py-2 rounded-lg"
+              className=" bg-[#98FF98] font-[600] text-[18px] text-dark px-6 py-2 rounded-lg"
               variants={fadeIn("down", 0.4)}
               initial="hidden"
               animate="show"
@@ -62,7 +62,7 @@ export default function Team() {
             exit="hidden"
           >
             <Image
-              className="border-solid border-8 border-[#AFEEEE] object-cover"
+              className=" image border-solid border-8 border-[#AFEEEE] object-cover"
               src={"/PASSPORT 51 1 (1).png"}
               width={330}
               height={430}
@@ -79,9 +79,9 @@ export default function Team() {
             Meet Job, the inventive force behind Rafiki Carbon&apos;s advanced solutions. With software engineering expertise, Job&apos;s passion shines through in every detail, from algorithms to user interface. Committed to impactful sustainability, they unite expertise and core values to resonate globally and drive change.
           </div>
           
-          <div className="mt-4 xl:text-left">
+          <div className="linkedin mt-4 xl:text-left">
             <motion.button
-              className="bg-[#AFEEEE] font-[600] text-[18px] text-dark px-6 py-2 rounded-lg"
+              className=" bg-[#AFEEEE] font-[600] text-[18px] text-dark px-6 py-2 rounded-lg"
               variants={fadeIn("down", 0.4)}
               initial="hidden"
               animate="show"

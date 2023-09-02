@@ -16,7 +16,7 @@ export default function Footer() {
                 <div><Link href="#faq">FAQs</Link></div>
               </div>
               <div>
-                <div><Link href="#approach">Approach</Link>Approach</div>
+                <div><Link href="#approach">Approach</Link></div>
                 <div><Link href="#blog">Blog</Link></div>
               </div>
               <div>
@@ -25,17 +25,7 @@ export default function Footer() {
               </div>
             </div>
             <div className="my-8 text-center">
-              <Socials />
               <p className="my-2">&copy; {year} Rafiki Carbon. All rights reserved.</p>
-            </div>
-            <div className="block mx-auto my-4">
-              <Image
-                src={"/footer-logo.svg"}
-                width={180}
-                height={180}
-                alt=""
-                priority={true}
-              />
             </div>
           </div>
         </div>
@@ -56,7 +46,7 @@ export default function Footer() {
               </div>
               <div>
                 <div><Link href="#team">Team</Link></div>
-                <div><Link href="/">Contact</Link></div>
+                <div><Link href="/contact">Contact</Link></div>
               </div>
             </div>
             <div className="justify-center items-center">

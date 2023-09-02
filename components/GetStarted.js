@@ -1,6 +1,8 @@
+import Link from "next/link";
+
 export default function GetStarted() {
     return (
-      <div className="px-4 md:px-0 mx-auto w-full md:w-[90%] border rounded-lg justify-center items-center p-4 border-2 border-[#2F8A8A] my-4 md:my-8">
+      <div className="pills start px-4 md:px-0 mx-auto border rounded-lg justify-center items-center p-4 border-2 border-[#2F8A8A] mx-11 my-4 md:my-8">
         <div className="flex flex-col justify-center items-center">
           <div className="text-center">
             <h1 className="text-[#000] text-xl md:text-2xl font-semibold my-2">
@@ -12,7 +14,7 @@ export default function GetStarted() {
           </div>
           <div className="flex justify-center items-center my-4">
             <button className="text-white rounded-lg bg-[#008080] px-8 py-2 text-sm md:text-base">
-              Get Started
+                <Link href="/contact">Get Started</Link>
             </button>
           </div>
         </div>

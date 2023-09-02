@@ -28,7 +28,7 @@ export default function Home() {
                   {navbar ? (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-teal"
                       viewBox="0 0 20 20"
                       fill="currentColor"
                     >
@@ -41,7 +41,7 @@ export default function Home() {
                   ) : (
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="w-6 h-6 text-white"
+                      className="w-6 h-6 text-teal"
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -78,7 +78,7 @@ export default function Home() {
                   <Link href="#blog">Blog</Link>
                 </li>
                 <li className="px-3 py-1 flex border rounded-[20px] border-[#008080]">
-                  <Link href="/">Get Started</Link>
+                  <Link href="/contact">Get Started</Link>
                 </li>
               </ul>
             </div>
