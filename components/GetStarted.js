@@ -9,7 +9,7 @@ export default function GetStarted() {
               Get Started Today
             </h1>
             <h2 className="text-[#808080] text-sm md:text-base font-normal my-2">
-              Join our marketplace and gain access to multiple carbon solutions features
+              Join our marketplace and gain access to multiple carbon solution features
             </h2>
           </div>
           <div className="flex justify-center items-center my-4">

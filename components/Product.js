@@ -31,7 +31,7 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
+      <div className="flex reversed flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
         <div className="z-0 two w-full w-[60%]">
           <div className=" heading font-semibold text-xl md:text-2xl pb-2 md:pb-4 pl-4 md:pl-12">Discover Rafiki Carbon&apos;s Pre-financing</div>
           <div className="text-1 text-lg text-center md:text-left px-4 md:px-12">Invest in renewable projects with confidence. Enjoy predictable 
@@ -39,7 +39,7 @@ export default function Product() {
           milestones, and diverse project opportunities for a sustainable future.</div>
         </div>
 
-        <div className="z-10 one w-full w-[40%]">
+        <div className="z-10 reversed-1 one w-full w-[40%]">
           <Image
             className="pl-10 object-cover"
             src={"/prefinance 1.png"}
@@ -53,9 +53,9 @@ export default function Product() {
 
       <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
 
-        <div className="one w-full w-[40%]">
+        <div className="one forcedd w-full w-[40%]">
           <Image
-            className="pl-10 object-cover"
+            className="pl-10 forced object-cover"
             src={"/match make 1.png"}
             width={450}
             height={700}
@@ -72,7 +72,7 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
+      <div className="flex reversed flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
         <div className="two w-full w-[60%]">
           <div className="heading font-semibold text-xl md:text-2xl pb-2 md:pb-4 pl-4 md:pl-12">Achieve Seamless Carbon Neutrality</div>
           <div className="text-1 text-lg text-center md:text-left px-4 md:px-12">Our Carbon Accounting feature aligns seamlessly 
@@ -86,7 +86,7 @@ export default function Product() {
            blend of predictability, security, traceability, transparency, and availability.</div>
         </div>
 
-        <div className="one w-full w-[40%]">
+        <div className="one reversed-1 w-full w-[40%]">
           <Image
             className="pl-10 object-cover"
             src={"/emissions REC 1.png"}
