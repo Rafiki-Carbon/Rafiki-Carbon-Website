@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactForm = () => {
   return (
-    <div className="md:grid lg:grid xl:grid grid-cols-2 xl:py-16">
+    <div className="md:grid lg:grid  xl:grid grid-cols-2 xl:py-16">
       <div className="flex items-center justify-center">
         <div>
           <div className="text-[40px] side font-medium px-4">
@@ -16,8 +16,8 @@ const ContactForm = () => {
           </div>
         </div>
       </div>
-      <div>
-        <div className="text-xl font-medium pb-5">Become an Early Adopter</div>
+      <div className="form">
+        <div className="text-[24px] head font-medium pb-5">Empower Sustainability. Get Started</div>
         <form
           action="https://getform.io/f/75d350bf-489a-47b7-b298-79b5abee2eb3"
           method="POST"
