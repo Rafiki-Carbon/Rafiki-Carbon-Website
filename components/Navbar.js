@@ -1,11 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState } from "react";
+// next router
+import { useRouter } from "next/router";
 
 export default function Home() {
-  const [navbar, setNavbar] = useState(false);
+  const [navbar, setNavbar] = useState(false);  
   return (
-    <div>     
+    <div>
       <nav className="w-full">
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
@@ -66,16 +68,16 @@ export default function Home() {
             >
               <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                 <li className="text-black">
-                  <Link href="#approach">Approach</Link>
+                  <Link href="/#approach">Approach</Link>
                 </li>
                 <li className="text-black">
-                  <Link href="#team">Team</Link>
+                  <Link href="/#team">Team</Link>
                 </li>
                 <li className="text-black">
-                  <Link href="#faq">FAQs</Link>
+                  <Link href="/#faq">FAQs</Link>
                 </li>
                 <li className="text-black">
-                  <Link href="#blog">Blog</Link>
+                  <Link href="/#blog">Blog</Link>
                 </li>
                 <li className="px-3 py-1 flex border rounded-[20px] border-[#008080]">
                   <Link href="/contact">Get Started</Link>

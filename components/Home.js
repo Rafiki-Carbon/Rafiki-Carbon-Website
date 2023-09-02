@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import Socials from "./Socials";
 import Image from "next/image";
 import { fadeIn } from "../variants";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
             animate="show"
             exit="hidden"
           >
-            Get Started
+            <Link href="/contact">Get Started</Link>
           </motion.button>
         </div>
       </div>
