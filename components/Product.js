@@ -9,9 +9,9 @@ export default function Product() {
       <div className="pillar-sub text-center text-lg text-[#808080] font-semibold pb-8 md:pb-11">Paving the way to a green future</div>
 
       <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
-        <div className="z-10 one pl-10 w-full w-[40%]">
+        <div className="z-10 forcedd one pl-10 w-full w-[40%]">
           <Image
-            className="object-cover"
+            className="forced pl-10 object-cover"
             src={"/dASHBOARD REC 1.png"}
             width={450}
             height={700}
@@ -47,15 +47,15 @@ export default function Product() {
             height={700}
             alt=""
             priority={true}
-          />
+          />  
         </div>
       </div>
 
       <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
 
-        <div className="one forcedd w-full w-[40%]">
+        <div className="one w-full w-[40%]">
           <Image
-            className="pl-10 forced object-cover"
+            className="pl-10 object-cover"
             src={"/match make 1.png"}
             width={450}
             height={700}

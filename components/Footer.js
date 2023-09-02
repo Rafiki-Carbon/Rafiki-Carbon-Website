@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div>
       {/* Mobile */}
-      <footer className="py-8 px-4 md:hidden lg:hidden xl:hidden">
+      <footer className="py-8 footer md:hidden lg:hidden xl:hidden">
         <div className="flex items-center justify-center">
           <div>
             <div className="grid grid-cols-3">
