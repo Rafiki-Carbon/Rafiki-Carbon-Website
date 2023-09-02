@@ -35,6 +35,10 @@
   width: 90%;
 }
 
+.contact{
+  margin: 0 5%;
+}
+
 
 @media only screen and (max-width: 500px) {
   .pills{
@@ -159,5 +163,26 @@
 
   .faq-3{
     font-size: 14px;
+  }
+
+  /* contact  */
+  .contact{
+    margin: 0 5%;
+  }
+  .form{
+    margin: 15% 0;
+  }
+  .form-grp{
+    margin: 5% 0;
+  }
+  .side{
+    font-size: 24px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .head{
+    font-size: 18px;
+    text-align: center;
   }
 }
