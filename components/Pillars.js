@@ -82,7 +82,7 @@ export default function Pillars() {
       >
         {allPillars.map((item, index) => (
           <motion.div
-            className="px-4 py-5 rounded-lg bg-[#98FF98] w-40 text-center hover:cursor-pointer"
+            className="px-4 py-5 rounded-lg bg-[#98FF98] w-40 text-center hover:cursor-pointer mb-4"
             whileHover={{
               scale: 1.1,
               textShadow: "0px 0px 8px rgb(255, 255, 255)",

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactForm = () => {
   return (
-    <div className="md:grid lg:grid xl:grid grid-cols-2 px-16 xl:py-16">
+    <div className="md:grid lg:grid xl:grid grid-cols-2 xl:py-16">
       <div className="flex items-center justify-center">
         <div>
           <div className="hidden md:block">
@@ -23,7 +23,10 @@ const ContactForm = () => {
       </div>
       <div>
         <div className="text-xl font-medium pb-5">Become an Early Adopter</div>
-        <div className="">
+        <form
+          action="https://getform.io/f/75acaace-e62e-4829-b41c-cbf3c896fda5"
+          method="POST"
+        >
           {/* Input fields */}
           <div className="md:grid grid-cols-2 gap-4">
             <div className="sm:mt-4">
@@ -32,6 +35,7 @@ const ContactForm = () => {
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
                 type="text"
                 placeholder="Jane Doe"
+                name="full name"
               />
             </div>
             <div className="sm:mt-4">
@@ -40,6 +44,7 @@ const ContactForm = () => {
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
                 type="email"
                 placeholder="janedoe@gmail.com"
+                name="email"
               />
             </div>
           </div>
@@ -50,6 +55,7 @@ const ContactForm = () => {
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
                 type="text"
                 placeholder="+254 7** *** ***"
+                name="phone"
               />
             </div>
             <div className="sm:mt-4">
@@ -58,6 +64,7 @@ const ContactForm = () => {
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
                 type="text"
                 placeholder="eg. Kenya"
+                name="country"
               />
             </div>
           </div>
@@ -68,15 +75,19 @@ const ContactForm = () => {
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
                 type="text"
                 placeholder="e.g Project Developer/Investor"
+                name="role"
               />
             </div>
           </div>
           <div className="mt-4">
-            <button className="px-8 py-3 rounded-lg text-white bg-teal-800 hover:bg-teal-700 focus:outline-none">
+            <button
+              type="submit"
+              className="px-8 py-3 rounded-lg text-white bg-teal-800 hover:bg-teal-700 focus:outline-none"
+            >
               Get Early Access
             </button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );
