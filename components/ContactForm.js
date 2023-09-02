@@ -5,19 +5,9 @@ const ContactForm = () => {
     <div className="md:grid lg:grid xl:grid grid-cols-2 xl:py-16">
       <div className="flex items-center justify-center">
         <div>
-          <div className="hidden md:block">
-            <Image
-              className="object-cover"
-              src={"/footer-logo.svg"}
-              width={140}
-              height={120}
-              alt=""
-              priority={true}
-            />
-          </div>
-          <div className="text-medium font-medium px-4">
-            Connecting Renewable and ESG-conscious Corporations through
-            Renewable Energy Certificates for a sustainable future.
+          <div className="text-[40px] side font-medium px-4">
+            Connecting <span className="text-[#0072BB]">Renewable</span> and <span className="text-[#0072BB]">ESG-conscious Corporations</span> through
+            <span className="text-[#0072BB]">Renewable Energy Certificates</span> for a sustainable future.
           </div>
         </div>
       </div>
@@ -29,7 +19,7 @@ const ContactForm = () => {
         >
           {/* Input fields */}
           <div className="md:grid grid-cols-2 gap-4">
-            <div className="sm:mt-4">
+            <div className="sm:mt-4 form-grp">
               <div className="text-sm">Full name*</div>
               <input
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
@@ -38,7 +28,7 @@ const ContactForm = () => {
                 name="full name"
               />
             </div>
-            <div className="sm:mt-4">
+            <div className="sm:mt-4 form-grp">
               <div className="text-sm">Email Address*</div>
               <input
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
@@ -49,7 +39,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="xl:grid grid-cols-2 gap-4 xl:mt-4">
-            <div className="sm:mt-4">
+            <div className="sm:mt-4 form-grp">
               <div className="text-sm">Phone Number*</div>
               <input
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
@@ -58,7 +48,7 @@ const ContactForm = () => {
                 name="phone"
               />
             </div>
-            <div className="sm:mt-4">
+            <div className="sm:mt-4 form-grp">
               <div className="text-sm">Country*</div>
               <input
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
@@ -69,7 +59,7 @@ const ContactForm = () => {
             </div>
           </div>
           <div className="xl:grid grid-cols-2 gap-4 xl:mt-4">
-            <div className="sm:mt-4">
+            <div className="sm:mt-4 form-grp">
               <div className="text-sm">Role*</div>
               <input
                 className="outline-none text-sm rounded px-4 py-3 focus:border focus:border-[#0072BB] w-full"
