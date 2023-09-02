@@ -74,7 +74,7 @@ export default function Pillars() {
       </motion.div>
 
       <motion.div
-        className="all-pills grid grid-cols-2 xl:flex justify-center items-center gap-28 md:gap-4 my-16"
+        className="all-pills grid grid-cols-2 xl:flex justify-center items-center md:gap-28 my-16"
         variants={fadeIn("down", 0.4)}
         initial="hidden"
         animate="show"

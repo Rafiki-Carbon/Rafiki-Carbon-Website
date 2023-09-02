@@ -10,7 +10,7 @@ export default function Home() {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <Link href="/" className="font-bold text-4xl text-[#000000] ">
+              <Link href="/" className="font-bold text-4xl text-[#000000]">
                 <Image
                   src={"./rafiki-logo.svg"}
                   width={200}

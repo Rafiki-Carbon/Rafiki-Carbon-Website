@@ -87,6 +87,15 @@
     margin-top: 10px;
   }
 
+  .one{
+    width: 100%;
+    margin: 0;
+  }
+
+  .two{
+    width: 100%;
+  }
+
   /* getstarted  */
   .start{
     margin: 0 5%;

@@ -8,8 +8,8 @@ export default function Product() {
 
       <div className="pillar-sub text-center text-lg text-[#808080] font-semibold pb-8 md:pb-11">Paving the way to a green future</div>
 
-      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-24 my-20">
-        <div className="w-full md:w-[500px]">
+      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
+        <div className="z-10 one pl-10 w-full w-[40%]">
           <Image
             className="object-cover"
             src={"/dASHBOARD REC 1.png"}
@@ -20,9 +20,9 @@ export default function Product() {
           />
         </div>
 
-        <div className="w-full md:w-[580px]">
+        <div className="z-0 two w-full w-[60%]">
           <div className="heading font-semibold text-xl md:text-2xl pb-2 md:pb-4 pl-4 md:pl-12">Welcome to the Rafiki Carbon Marketplace</div>
-          <div className="text-1 text-lg text-center md:text-left px-4 md:px-12">Where sustainable energy meets strong ESG commitments. Our dynamic platform empowers 
+          <div className=" text-1 text-lg text-center md:text-left px-4 md:px-12">Where sustainable energy meets strong ESG commitments. Our dynamic platform empowers 
             corporations with predictability in REC acquisition for sustainable goals. Security is paramount, 
             ensuring genuine RECs through rigorous verification. Traceability is our hallmark, spotlighting every
              REC&apos;s origin and carbon impact. Transparency guides decisions, offering project insights and trust.
@@ -31,17 +31,17 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-24 my-20">
-        <div className="w-full md:w-[580px]">
+      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
+        <div className="z-0 two w-full w-[60%]">
           <div className=" heading font-semibold text-xl md:text-2xl pb-2 md:pb-4 pl-4 md:pl-12">Discover Rafiki Carbon&apos;s Pre-financing</div>
           <div className="text-1 text-lg text-center md:text-left px-4 md:px-12">Invest in renewable projects with confidence. Enjoy predictable 
           returns, secure investments, traceable progress, transparent 
           milestones, and diverse project opportunities for a sustainable future.</div>
         </div>
 
-        <div className="w-full md:w-[500px]">
+        <div className="z-10 one w-full w-[40%]">
           <Image
-            className="object-cover"
+            className="pl-10 object-cover"
             src={"/prefinance 1.png"}
             width={450}
             height={700}
@@ -51,11 +51,11 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-24 my-20">
+      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
 
-        <div className="w-full md:w-[500px]">
+        <div className="one w-full w-[40%]">
           <Image
-            className="object-cover"
+            className="pl-10 object-cover"
             src={"/match make 1.png"}
             width={450}
             height={700}
@@ -64,7 +64,7 @@ export default function Product() {
           />
         </div>
 
-        <div className="w-full md:w-[580px]">
+        <div className="two w-full w-[60%]">
           <div className="heading font-semibold text-xl md:text-2xl pb-2 md:pb-4 pl-4 md:pl-12">Seamless Synergy: Intelligent Match-Making for Confidence</div>
           <div className="text-1 text-lg text-center md:text-left px-4 md:px-12">Rafiki Carbon&apos;s Match-Making leverages advanced algorithms
            to forge partnerships. Predictability via precise compatibility, security through rigorous vetting, and 
@@ -72,8 +72,8 @@ export default function Product() {
         </div>
       </div>
 
-      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-24 my-20">
-        <div className="w-full md:w-[580px]">
+      <div className="flex flex-col-reverse md:flex-row w-full justify-center items-center gap-12 w-[100%] my-20">
+        <div className="two w-full w-[60%]">
           <div className="heading font-semibold text-xl md:text-2xl pb-2 md:pb-4 pl-4 md:pl-12">Achieve Seamless Carbon Neutrality</div>
           <div className="text-1 text-lg text-center md:text-left px-4 md:px-12">Our Carbon Accounting feature aligns seamlessly 
           with our guiding principles, delivering a comprehensive picture of progress. Experience predictability 
@@ -86,9 +86,9 @@ export default function Product() {
            blend of predictability, security, traceability, transparency, and availability.</div>
         </div>
 
-        <div className="w-full md:w-[500px]">
+        <div className="one w-full w-[40%]">
           <Image
-            className="object-cover"
+            className="pl-10 object-cover"
             src={"/emissions REC 1.png"}
             width={450}
             height={700}
