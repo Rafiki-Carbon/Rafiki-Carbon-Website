@@ -6,15 +6,20 @@ const ContactForm = () => {
       <div className="flex items-center justify-center">
         <div>
           <div className="text-[40px] side font-medium px-4">
-            Connecting <span className="text-[#0072BB]">Renewable</span> and <span className="text-[#0072BB]">ESG-conscious Corporations</span> through
-            <span className="text-[#0072BB]">Renewable Energy Certificates</span> for a sustainable future.
+            Connecting <span className="text-[#0072BB]">Renewable</span> and{" "}
+            <span className="text-[#0072BB]">ESG-conscious Corporations</span>{" "}
+            through
+            <span className="text-[#0072BB]">
+              Renewable Energy Certificates
+            </span>{" "}
+            for a sustainable future.
           </div>
         </div>
       </div>
       <div>
         <div className="text-xl font-medium pb-5">Become an Early Adopter</div>
         <form
-          action="https://getform.io/f/75acaace-e62e-4829-b41c-cbf3c896fda5"
+          action="https://getform.io/f/75d350bf-489a-47b7-b298-79b5abee2eb3"
           method="POST"
         >
           {/* Input fields */}
