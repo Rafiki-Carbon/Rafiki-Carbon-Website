@@ -8,7 +8,7 @@ const ContactForm = () => {
           <div className="text-[40px] side font-medium px-4">
             Connecting <span className="text-[#0072BB]">Renewable</span> and{" "}
             <span className="text-[#0072BB]">ESG-conscious Corporations</span>{" "}
-            through
+            through{" "}
             <span className="text-[#0072BB]">
               Renewable Energy Certificates
             </span>{" "}
