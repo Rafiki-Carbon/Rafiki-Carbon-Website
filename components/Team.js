@@ -13,7 +13,7 @@ export default function Team() {
         Discover our Founders
       </div>
       <div className="flex flex-col-reverse md:flex-row gap-4">
-      <div className="md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
+      <div className=" reversed-1 md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
         <div className="md:grid xl:grid grid-cols-1">
           <motion.div
             variants={fadeIn("up", 0.2)}
@@ -22,7 +22,7 @@ export default function Team() {
             exit="hidden"
           >
             <Image
-              className="image border-solid border-8 border-[#98FF98] object-cover"
+              className="image object-cover"
               src={"/PASPORT 52 1.png"}
               width={330}
               height={430}
@@ -41,7 +41,7 @@ export default function Team() {
           
           <div className="linkedin mt-4 xl:text-left">
             <motion.button
-              className=" bg-[#98FF98] font-[600] text-[18px] text-dark px-6 py-2 rounded-lg"
+              className=" bg-[#AFEEEE] font-[600] text-[18px] text-dark px-6 py-2 rounded-lg"
               variants={fadeIn("down", 0.4)}
               initial="hidden"
               animate="show"
@@ -53,7 +53,7 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
+      <div className="reversed md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
         <div className="md:grid xl:grid grid-cols-1">
           <motion.div
             variants={fadeIn("up", 0.2)}
@@ -62,7 +62,7 @@ export default function Team() {
             exit="hidden"
           >
             <Image
-              className=" image border-solid border-8 border-[#AFEEEE] object-cover"
+              className=" image object-cover"
               src={"/PASSPORT 51 1 (1).png"}
               width={330}
               height={430}
