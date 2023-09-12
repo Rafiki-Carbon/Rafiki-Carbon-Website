@@ -1,8 +1,3 @@
-import { motion } from "framer-motion";
-import Link from "next/link";
-import Image from "next/image";
-import { fadeIn } from "../variants";
-
 export default function About() {
   return (
     <div className="pills md:grid xl:grid" id="team">

@@ -8,6 +8,7 @@ import Team from "@/components/Team";
 import Sustainable from "@/components/Sustainable";
 import Product from "@/components/Product";
 import About from "@/components/About";
+import Partners from "@/components/Partners";
 
 export default function Index() {
   return (
@@ -19,6 +20,7 @@ export default function Index() {
       <About/>
       <Sustainable/>
       <Team/>
+      <Partners/>
       <Faqs />
       <Explore />
     </div>
