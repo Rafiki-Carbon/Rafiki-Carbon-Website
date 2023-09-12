@@ -20,8 +20,8 @@ export default function Footer() {
                 <div><Link href="#blog">Blog</Link></div>
               </div>
               <div>
-                <div><Link href="#team">Team</Link></div>
-                <div><Link href="/">Contact</Link></div>
+                <div><Link href="#about">About Us</Link></div>
+                <div><Link href="/contact">Contact</Link></div>
               </div>
             </div>
             <div className="my-8 text-center">
@@ -45,7 +45,7 @@ export default function Footer() {
                 <div><Link href="#blog">Blog</Link></div>
               </div>
               <div>
-                <div><Link href="#team">Team</Link></div>
+                <div><Link href="#about">About Us</Link></div>
                 <div><Link href="/contact">Contact</Link></div>
               </div>
             </div>

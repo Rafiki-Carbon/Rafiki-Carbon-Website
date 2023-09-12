@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="pills md:grid xl:grid" id="team">
+    <div className="pills md:grid xl:grid" id="about">
       <div className="pillar font-bold text-[#0072BB] text-lg xl:text-4xl text-center">
         About Us
       </div>

@@ -71,10 +71,13 @@ export default function Home() {
                   <Link href="/#approach">Approach</Link>
                 </li>
                 <li className="text-black">
-                  <Link href="/#team">Team</Link>
+                  <Link href="/#about">About Us</Link>
                 </li>
                 <li className="text-black">
                   <Link href="/#faq">FAQs</Link>
+                </li>
+                <li className="text-black">
+                  <Link href="/#partner">Partners</Link>
                 </li>
                 <li className="text-black">
                   <Link href="/#blog">Blog</Link>
