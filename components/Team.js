@@ -12,8 +12,8 @@ export default function Team() {
       <div className="pillar-sub font-bold my-4 text-[#808080] text-lg xl:text-2xl text-center">
         Discover our Founders
       </div>
-      <div className="flex flex-col-reverse md:flex-row gap-4">
-      <div className=" reversed-1 md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
+      <div className="flex w-12/12 flex-col-reverse md:flex-row gap-4">
+      <div className=" reversed-1 xl:w-6/12 md:w-12/12 md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
         <div className="md:grid xl:grid grid-cols-1">
           <motion.div
             variants={fadeIn("up", 0.2)}
@@ -53,7 +53,7 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="reversed md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
+      <div className="reversed xl:w-6/12 md:w-12/12 md:grid xl:grid grid-cols-1 mx-4 md:mx-12 my-6">
         <div className="md:grid xl:grid grid-cols-1">
           <motion.div
             variants={fadeIn("up", 0.2)}
